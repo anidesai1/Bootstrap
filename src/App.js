@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 import Footer from './Footer';
 import LeftMenu from './LeftMenu';
+import ControlledCarousel from './ControlledCarousel'; 
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <div className="d-flex flex-grow-1">
       <LeftMenu />
         <div className="flex-grow-1 p-3">
-          <h1>Main Content</h1>
+          <ControlledCarousel />
           <p>This is the main content area.</p>
         </div>
       </div>
